@@ -22,10 +22,11 @@ public class OurController {
         return "pong";
     }
 
-    @RequestMapping("/AIK")
+    @RequestMapping("/AIK" or "DIF")
     @ResponseBody
-    String AIK() { return "AIK är bäst!";
-    }
+    String AIK() {{ return "AIK är bäst!";}
+        String DIF() { return "AIK är Sämst!";
+    }}
 
     @RequestMapping("/yo/{name}")
     @ResponseBody
