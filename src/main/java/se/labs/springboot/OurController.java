@@ -22,6 +22,12 @@ public class OurController {
         return "pong";
     }
 
+    @RequestMapping("/AIK")
+    @ResponseBody
+    String ping() {
+        return "AIK är bäst!";
+    }
+
     @RequestMapping("/yo/{name}")
     @ResponseBody
     String yo(@PathVariable String name) {
