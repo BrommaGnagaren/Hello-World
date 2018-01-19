@@ -24,7 +24,7 @@ public class OurController {
 
     @RequestMapping("/AIK")
     @ResponseBody
-    String ping() {
+    String AIK() {
         return "AIK är bäst!";
     }
 
