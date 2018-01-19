@@ -24,9 +24,9 @@ public class OurController {
 
     @RequestMapping("/AIK" or "DIF")
     @ResponseBody
-    String AIK() {{ return "AIK är bäst!";}
-        String DIF() { return "AIK är Sämst!";
-    }}
+    If String AIK() { return "AIK är bäst!";}
+       else String DIF() { return "DIF är Sämst!";
+    }
 
     @RequestMapping("/yo/{name}")
     @ResponseBody
