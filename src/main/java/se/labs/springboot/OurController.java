@@ -24,8 +24,7 @@ public class OurController {
 
     @RequestMapping("/AIK")
     @ResponseBody
-    String AIK() {
-        return "AIK är bäst!";
+    String AIK() { return "AIK är bäst!";}
     }
 
     @RequestMapping("/yo/{name}")
