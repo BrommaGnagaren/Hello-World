@@ -22,7 +22,7 @@ public class OurController {
         return "pong";
     }
 
-    @RequestMapping("/AIK" or "DIF")
+    @RequestMapping("/AIK" or "/DIF")
     @ResponseBody
     If String AIK() { return "AIK är bäst!";}
        else String DIF() { return "DIF är Sämst!";
